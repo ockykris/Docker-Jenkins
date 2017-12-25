@@ -1,5 +1,5 @@
 # This Dockerfile is used to build an image containing basic stuff to be used as a Jenkins slave build node.
-FROM kristant/docker-ubuntu:trusty
+FROM kristant/docker-jenkinsslaveqt5:trusty-5.3
 MAINTAINER Ocky Kristanto <ockykris@gmail.com>
 
 # Add locales after locale-gen as needed
